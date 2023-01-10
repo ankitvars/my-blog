@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "site": "my-blog-6d94",
+    "public": "build",
+    "ignore": [
+      ".git",
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
