@@ -1,6 +1,7 @@
 import React from 'react';
 import { useFormInput } from '../hooks';
 import { firestore } from '../firebase';
+import classes from './Button.module.css';
 
 function CreatePost() {
   const title = useFormInput();
@@ -40,7 +41,7 @@ function CreatePost() {
           <textarea {...content}></textarea>
         </div>
 
-        <button className="create-post-btn">Create Post</button>
+        <button className={classes.button}>Create Post</button>
       </form>
     </div>
   );
