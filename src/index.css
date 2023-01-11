@@ -16,14 +16,14 @@ code {
     monospace;
 }
 
-.container {
-  /* width: 1200px; */
+/* .container {
+  //width: 1200px;
   width: 70vw;
   margin-left: auto;
   margin-right: auto;
   margin: 0 auto;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; 
+}*/
 /* .home h1 {
   text-align: center;
   color: #2196f3;
@@ -58,10 +58,6 @@ code {
   line-height: 24px;
   letter-spacing: normal;
 } */
-#blog-by {
-  color: #2196f3;
-  text-align: end;
-}
 /* .post-detail h1 {
   color: #2e3138;
   text-align: center;
