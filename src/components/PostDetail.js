@@ -13,7 +13,7 @@ function PostDetail() {
       .doc(postId)
       .get()
       .then((snapshot) => {
-        console.log('snapshot', snapshot.data());
+        // console.log('snapshot', snapshot.data());
         setPost(snapshot.data());
       });
     // eslint-disable-next-line react-hooks/exhaustive-deps

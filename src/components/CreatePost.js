@@ -40,9 +40,9 @@ function CreatePost() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log('title', title);
-    console.log('subtitle', subtitle);
-    console.log('content', content);
+    // console.log('title', title);
+    // console.log('subtitle', subtitle);
+    // console.log('content', content);
 
     firestore.collection('posts').add({
       title: title.value,
