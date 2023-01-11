@@ -1,7 +1,7 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { firestore } from '../firebase';
+import Radium from 'radium';
 
 function PostDetail() {
   const [post, setPost] = useState({});
@@ -16,16 +16,26 @@ function PostDetail() {
         console.log('snapshot', snapshot.data());
         setPost(snapshot.data());
       });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  const styles = {
+    heading: {
+      color: '#2e3138',
+      textAlign: ' center',
+    },
+    para: {
+      color: 'teal',
+      marginBottom: '100px',
+    },
+  };
   return (
-    <div className="post-detail">
-      <h1>{post.title}</h1>
-      <div id='blog-by'>{post.subtitle}</div>
-      <p>{post.content}</p>
-      
+    <div>
+      <h1 style={styles.heading}>{post.title}</h1>
+      <div id="blog-by">{post.subtitle}</div>
+      <p style={styles.para}>{post.content}</p>
     </div>
   );
 }
 
-export default PostDetail;
+export default Radium(PostDetail);

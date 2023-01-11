@@ -29,7 +29,7 @@ code {
   color: #2196f3;
   margin-bottom:40px;
 } */
-.home .post {
+/* .home .post {
   border: 2px solid white;
   padding: 10px 10px;
   border-radius: 5px;
@@ -39,20 +39,20 @@ code {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
-}
-.home .post a {
+} */
+/* .home .post a {
   text-decoration: none;
-}
-.home .post h3 {
+} */
+/* .home .post h3 {
   margin: 0;
   padding: 0;
   font-size: 25px;
   font-weight: bold;
   color: #55636f;
-}
-.home .post h3:hover {
+} */
+/* .home .post h3:hover {
   color: #48d1cc;
-}
+} */
 /* .home .post p {
   font-size: 14px;
   line-height: 24px;
@@ -62,50 +62,50 @@ code {
   color: #2196f3;
   text-align: end;
 }
-.post-detail h1 {
+/* .post-detail h1 {
   color: #2e3138;
   text-align: center;
-}
-.post-detail p {
+} */
+/* .post-detail p {
   color: teal;
   margin-bottom: 100px;
-}
-.navbar {
+} */
+/* .navbar {
   display: flex;
   justify-content: space-between;
-}
-#nav-icon {
+} */
+/* #nav-icon {
   height: 40px;
   width: 40px;
   margin: 18px;
   align-self: auto;
   cursor: pointer;
-}
-#nav {
+} */
+/* #nav {
   list-style-type: none;
   padding: 0;
   display: flex;
-}
-#nav li {
+} */
+/* #nav li {
   margin-left: 10px;
-}
-#nav li a {
+} */
+/* #nav li a {
   text-decoration: none;
   color: #9e9e9e;
   margin-right: 20px;
-}
-#nav li a:hover {
+} */
+/* #nav li a:hover {
   text-decoration: underline;
-}
-.create-post h1 {
+} */
+/* .create-post h1 {
   text-align: center;
-}
-.create-post .form-field {
+} */
+/* .create-post .form-field {
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
-}
-.create-post .form-field label {
+} */
+/* .create-post .form-field label {
   margin-bottom: 9px;
 }
 .create-post .form-field input {
@@ -123,7 +123,7 @@ code {
   border-radius: 3px;
   padding-top: 5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+} */
 /* .create-post-btn {
   height: 33px;
   background: #4caf50;
@@ -135,7 +135,7 @@ code {
   cursor: pointer;
   margin-bottom: 100px;
 } */
-.footer {
+/* .footer {
   background: #2e3138;
   width: 100%;
   color: #fff;
@@ -144,4 +144,4 @@ code {
   left: 0;
   bottom: 0;
   padding: 7px;
-}
+} */
